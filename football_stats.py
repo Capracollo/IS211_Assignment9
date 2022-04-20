@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 
 
-
 def get_player(url):
 
     page = requests.get(url)
@@ -38,3 +37,4 @@ if __name__ == "__main__":
     """Main entry point"""
     url = "https://www.cbssports.com/nfl/stats/player/scoring/nfl/regular/qualifiers/"
     get_player(url)
+
