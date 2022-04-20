@@ -17,7 +17,8 @@ def get_prices(url):
 
         print(f'Date - {day}, price - {price}')
 
-    if __name__ == "__main__":
-        """Main entry point"""
-        url = "https://finance.yahoo.com/quote/AAPL/history?p=AAPL"
-        get_prices(url)
+
+if __name__ == "__main__":
+    """Main entry point"""
+    url = "https://finance.yahoo.com/quote/AAPL/history?p=AAPL"
+    get_prices(url)
